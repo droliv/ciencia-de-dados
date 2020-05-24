@@ -1,0 +1,39 @@
+* Amostra
+- parte de uma população
+- deve ser selecionada usando uma técnica que dê chances iguais dos elementos serem selecionados.
+- seleção aleatória.
+- não deve permitir enviesamento.
+
+* População 
+- Todo o conjunto de elementos que fazem parte do que está sendo estudado.
+
+* Censo 
+- pesquisa com toda a população.
+- difícil e caro.
+- leva muito tempo.
+
+* Inferência
+- tirar uma conclusão sobre uma população a partir de uma amostra.
+- a amostra deve representar as mesmas características da população.
+- tem uma margem de erro.
+
+* Enviesamento
+- subestimar ou superestimar o parâmetro da população.
+- Causas
+    - Pesquisa de pessoas próximas
+    - pesquisa pela internet
+    - sem uso de seleção aleatória.
+
+* Amostra aleatória simples
+- Com reposição
+    - O elemento selecionado volta a fazer parte da população e pode ser selecionado novamente.
+- Sem reposição
+    - O elemento deixa de fazer parte da população e não pode ser selecionado novamente.
+
+* Amostra estratificada
+- população dividida em estratos que pode ser relacionado a raça, religião, etc..
+
+* Amostra sistemática
+- é escolhido um número aleatório e a partir daí a cada N elementos é selecionado um novo.
+
+
