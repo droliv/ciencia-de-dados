@@ -1,0 +1,81 @@
+# Probabilidade
+
+p = 1: evento certo
+p = 0: evento impossível
+
+* Não existe probabilidade negativa ou maior que 1
+
+* Experimento: O que está sendo estudado
+* Espaço amostral: Todas as possibilidades de ocorrência do evento
+* Evento: resultados ocorridos
+ - Exemplo:
+    - experimento: jogar a moeda
+    - espaço amostral: cara ou coroa
+    - evento: coroa
+
+* Eventos excludentes
+    - não podem ocorrer ao mesmo tempo
+    - ex: jogar um dado e ser 1 e par.
+
+* Eventos não excludentes
+    - podem ocorrer ao mesmo tempo
+    - ex: jogar um dado e ser 2 e par
+
+* Eventos dependentes
+    - a ocorrência de um evento afeta o outro.
+
+* Eventos independentes
+    - a ocorrência de um evento não afeta o outro.
+
+* probabilidade = evento / número de eventos possiveis.
+    - ex: experimento: jogar uma moeda
+          Espaço amostral: cara ou coroa - 2
+          eventos: coroa - 1
+          p = 1 / 2 = 0,5 ou 50%
+
+          experimento: jogar um dado e dar 6
+          espaço amostral: 6
+          eventos: 1
+          p = 1/6 = 0,16 ou 16%
+
+          experimento: jogar um dado e dar 1 ou 6
+          espaço amostral: 6
+          eventos: 2
+          p = 2/6 = 0,33 ou 33%
+          
+          experimento: jogar um dado e dar impar ou maior que 4
+          espaço amostral: 6
+          evento: (1,3,5,6) -> 4
+          p = 4/6 = 0,66 ou 66%
+
+* eventos excludentes ( soma-se as probabilidades)
+    - ex: experimento: jogar um dado e ser 1 ou par
+          espaço amostral: 6
+          probabilidade 1: 1
+          probabilidade par: 3
+          p = 1/6 + 3/6 = 4/6 = 0,66 ou 66%
+
+* eventos não excludentes (soma-se as probabilidades e subtrai a sobreposição)
+    - ex: experimento: jogar um dado e ser 2 ou par
+          espaço amostral: 6
+          probabilidade 2: 1
+          probabilidade par: 3
+          sobreposição: 1
+
+          p = 1/6 + 3/6 - 1/6 = 3/6 = 0,5
+
+* eventos independentes (multiplica-se as probabilidades)
+    -ex: jogar dois dados e dar 1 e 6
+         espaço amostral: 6 - 6
+         eventos: 1 -1
+         p = 1/6 * 1/6 = 1/36 = 0,027
+
+* eventos dependentes (multiplica-se as probabilidades mas o espaço amostral muda a cada evento)
+    -ex: com 6 cartas na mão (a,2,3,4,5,6) tirar 1 carta e ser a e tirar outra carta e ser 4.
+    espaço amostral 1: 6
+    espaço amostral 2: 5
+    evento 1: 1
+    evento 2: 1
+    p = 1/6 * 1/5 = 1/30 = 0,033
+        
+
