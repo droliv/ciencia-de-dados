@@ -1,0 +1,22 @@
+#Distribuição binomial
+
+* distribuição de probabilidade discreta
+    - número fixo de experimentos
+    - cada experimento pode ter apenas 2 resultados: sucesso ou fracasso.
+    - probabilidade a mesma para sucesso ou fracasso.
+    - experimentos independentes.
+
+x -> total de sucesso
+p -> probabilidade de sucesso
+n -> numero de experimentos
+1-p -> probabilidade de fracassos
+
+ex: jogar uma moeda 5 vezes e dar cara 3 vezes.
+    cara: sucesso, coroa: fracasso.
+x = 3
+n = 5
+p = 0,5
+1-p = 0,5
+
+
+
